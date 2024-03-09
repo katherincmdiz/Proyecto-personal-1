@@ -47,7 +47,10 @@ h1{
 .btnNo{
     background: linear-gradient(rgb(44, 46, 75), rgb(101, 193, 242))
 }
-@media (max-width:360px){
+@media screen and (max-width: 460px){
+    body{
+        margin: 1px;
+    }
     h1{
         text-align: center;
     }
